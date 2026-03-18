@@ -35,8 +35,6 @@ Aucune installation de Python ou de dépendances n'est nécessaire. L'exécutabl
 
 ## 🔌 Schéma de câblage
 
-## 🔌 Schéma de câblage
-
 ### Vue d'ensemble
 
 ![Schéma électrique complet](schema_overview.png)
