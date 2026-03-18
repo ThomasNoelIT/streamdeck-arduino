@@ -54,15 +54,6 @@ La résistance 220Ω en série avec la LED limite le courant pour ne pas griller
 | LED anode (+) | Pin digital D8..D13 via résistance 220Ω |
 | LED cathode (-) | GND |
 
-
-```
-Arduino Pin 2 ──────────┬──── Bouton ──── 5V
-                         │
-                        10kΩ
-                         │
-                        GND
-```
-
 Les 6 boutons utilisent les pins **2, 3, 4, 5, 6, 7**.  
 Les 6 LEDs (optionnelles) utilisent les pins **8, 9, 10, 11, 12, 13**.
 
