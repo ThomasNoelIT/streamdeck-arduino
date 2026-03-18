@@ -8,9 +8,17 @@ Un stream deck physique fait maison avec un Arduino Uno R4 WiFi et des boutons p
 
 **Tu veux juste utiliser l'application ?**
 
-1. Télécharge `StreamDeck.exe` depuis le dossier `dist/`
-2. Branche ton Arduino Uno R4 WiFi en USB
-3. Lance `StreamDeck.exe` — c'est tout !
+1. Télécharge `StreamDeck.exe` depuis la section [Releases](https://github.com/ThomasNoelIT/streamdeck-arduino/releases)
+2. Télécharge et installe l'[IDE Arduino](https://www.arduino.cc/en/software)
+3. Ouvre le fichier `deck.ino/deck.ino.ino` dans l'IDE Arduino
+4. Sélectionne la carte : `Outils` → `Carte` → **Arduino Uno R4 WiFi**
+5. Sélectionne le port : `Outils` → `Port` → le port COM de ton Arduino
+6. Clique sur **Téléverser** (flèche →)
+7. Branche l'Arduino en USB sur ton PC
+8. Lance `StreamDeck.exe`
+9. Si l'Arduino n'est pas détecté, clique sur **⚙️** pour choisir le bon port COM
+
+> Le flash de l'Arduino n'est à faire **qu'une seule fois**. Ensuite, seul le `.exe` suffit au quotidien.
 
 Aucune installation de Python ou de dépendances n'est nécessaire. L'exécutable embarque tout ce qu'il faut.
 
